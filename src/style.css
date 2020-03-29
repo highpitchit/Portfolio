@@ -29,7 +29,6 @@ body {
                             "spare spare spare"
                             ;   
 }
-
 section {
     display: flex;
     position: relative;
@@ -78,6 +77,19 @@ section:nth-child(2) {
 
 section:nth-child(4) {
     width: 100%;
+}
+.blog {
+    grid-area: content;
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows:  1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-gap: 5px;
+}
+.blog {
+    border: #000 1px solid;
+    padding: 1em;
 }
 
 #footer { 
