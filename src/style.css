@@ -6,9 +6,19 @@ body {
     width: 100%;
     margin: 0px;
     position: relative;
+    background-image: url(/docs/splash2.jpg);
     background-color:white;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+.splash h1{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
 }
 
 .maingrid {
