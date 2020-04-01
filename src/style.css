@@ -426,7 +426,41 @@ article p{
     width: 70%;    
 }
 
+#image1contact {
+    display:none;
+}
+#image2contact {
+    display:none;
+}
 
+#image3contact {
+    display:none;
+}
+.form {
+    grid-column: 2/5;
+}
+.form {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    width: 50%;
+    padding: 12px;
+    resize: vertical
+}
+#submit {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: 7px solid white;
+    border-radius: 20px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
 
 
 /* 

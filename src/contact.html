@@ -21,14 +21,32 @@
                 <a href="http://127.0.0.1:5501/src/blog.html">BLOG</a>
             </nav>
   
-        <section id="image1">Image of me</section>
-        <section id="image2">Section 4</section>
-        <section id="image3">Section 5</section>
-        <section id="contact">
-            <h1>
-                CONTACT ME!
-            </h1>
-           <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, impedit corrupti, dolor animi ipsa eveniet reiciendis debitis tempore nihil magnam asperiores labore nostrum iure nam! Autem dicta voluptatem adipisci consequuntur!</p>
+        <section id="image1contact">Image of me</section>
+        <section id="image2contact">Section 4</section>
+        <section id="image3contact">Section 5</section>
+        <section class="form">
+            
+            <form action="/action_page.php">
+                <h1> Contact me!</h1>
+                <label id="1name" for="1stname">First Name</label>
+                    <input type="text" id="1stname" name="firstname" placeholder=
+                    "Your first name..">
+                <label id="lname" for="lstname">Last Name</label>
+                    <input type="text" id="lstname" name="lastname" placeholder=
+                    "Your last name..">
+                <label id="hearabtus" for="hearabtus">How did you hear about us?</label>
+                    <select id="hearabtus" name="hearabtus">
+                        <option value="google">Google</option>
+                        <option value="colleague">Colleague</option>
+                        <option value="friend">Friend</option>
+                        <option value="other">Other</option>
+                <label for="subject">Subject</label>
+                
+                <textarea id="subject" name="subject" placeholder="Let me know how we can work together!" style="height:300px"></textarea>
+            
+                <input id="submit" type="submit" value="Submit">
+            </form>
+
         </section>
     </div>	
 </body>
