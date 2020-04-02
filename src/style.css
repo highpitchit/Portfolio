@@ -54,10 +54,9 @@ body {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr -1fr;
     grid-template-rows: 30px 30px 110px  3fr;
-    /* grid-gap: 10px 10px; */
+    grid-gap: 10px 10px;
     margin-top: 20px;
-    /* margin-block-end: 10px; */
-    /* justify-content: center; */
+    margin-block-end: 10px;
     text-decoration: none;
     min-height: 100vh; 
     /* overflow: hidden; */
@@ -178,14 +177,11 @@ section img{
     grid-area: content;
     display: inline-flex;
     grid-column: 1/7;
-    grid-row: 4;   
-}
-#aboutme {
-    grid-area: content;
-    display: flex;
+    grid-row: 4;  
     flex-direction: column;
-    border: none;
+    border: none; 
 }
+
 #aboutme h1 {
     grid-area: content;
     display: flex;
@@ -210,19 +206,13 @@ section img{
 #aboutme .form {
     grid-column: 1/4;
     display: flex;
-    margin-top: -150px;
     align-content: top;
+    box-sizing: border-box;
     justify-content: center;
+    flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 16px;
-}
-
-#aboutme .form {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 10px;
     width: 80%;
     padding: 12px;
@@ -283,7 +273,7 @@ article p{
     max-width: 70%;    
     font-size: 16px;
 }
-
+}
 /* Tablet */
 @media screen and (min-width: 480px) and (max-width: 799px)
 {
@@ -446,15 +436,16 @@ article p{
 article p {
         max-width: 50%;    
 }
+}
 
 
-/* Desktop */
+/* DESKTOP */
 @media screen and (min-width: 800px)
 {
 .maingrid {
     margin-left: 70px; 
     margin-right: 70px;
-    grid-template-columns: 400px 1fr 400px 1fr 400px;
+    grid-template-columns: 200px 1fr 200px 1fr 200px;
     grid-template-rows: 40px 40px 200px  3fr;
     grid-gap: 20px 20px; 
     margin-block-end: 20px;  
@@ -482,8 +473,7 @@ section img{
     height: 180px;
     display: flex;
     justify-items: center;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 #image2 {
     display: flex;
@@ -494,7 +484,6 @@ section img{
     max-height: 200px;
     align-content: center;
     border: 1px solid white;
-    /* margin-left: 20px; */
 }
 
 #image2 img {
@@ -626,4 +615,4 @@ section img{
     align-items: center;
     margin-top: 20px;
   }
-
+}
