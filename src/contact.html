@@ -32,16 +32,19 @@
             </section>
         <section id="aboutme">
             <h1> CONTACT ME</h1>
-            <form class="form" action="/action_page.php">
-               
-                <label id="1name" for="1stname">First Name</label>
+            <form class="form" action="mailto:ameliafrancesnunn@gmail.com" method="post" enctype="text/plain">
+                <label id="1name" for="1stname">First Name :</label>
                     <input type="text" id="1stname" name="firstname" placeholder=
                     "Your first name..">
-                <label id="lname" for="lstname">Last Name</label>
+                <label id="lname" for="lstname">Last Name :</label>
                     <input type="text" id="lstname" name="lastname" placeholder=
                     "Your last name..">
+                <label id="email" for="email">Email :</label>
+                    <input type="text" id="email" name="email" placeholder=
+                    "Your email..">
                 <label id="hearabtus" for="hearabtus">How did you hear about us?</label>
-                    <select id="hearabtus" name="hearabtus">
+                    <select id="dropdown" name="hearabtus">
+                        <option value="drop" href="#" >Select from the dropdown menu</i></option>
                         <option value="google">Google</option>
                         <option value="colleague">Colleague</option>
                         <option value="friend">Friend</option>
