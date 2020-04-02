@@ -1,9 +1,8 @@
 # PORTFOLIO WEBSITE:
 
-**NEED TO ADD URL TO WEBSITE HERE**
+[DEPLOYED SITE](https://highpitchit.github.io/portf/)
 
-[MY PORTFOLIO ON GITHUB](https://github.com/highpitchit/Portfolio
-)
+[MY PORTFOLIO ON GITHUB](https://github.com/highpitchit/Portfolio)
 
 ## 1.0 PURPOSE
 
@@ -34,6 +33,8 @@ The submit form will bring up their email icon to send an email to me.
 
 ## 3.0 SITEMAP
 ![Sitemap](docs/Sitemap.png)
+https://www.lucidchart.com/invitations/accept/c6ee17d9-bbfc-4830-8270-79fc4c4f9445 
+
 
 ## 5.0 WIREFRAME
 
