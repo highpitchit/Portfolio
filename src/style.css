@@ -245,21 +245,42 @@ section img{
     justify-content: center;
     font-size: 8px;
 }
-
-/* grid for blog page */
+/*CONTENT FOR PORTFOLIO PAGE*/
+.nested article .icons {
+    float:left;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+#resume {
+    height: 30px;
+}
+#resume a:link {
+    color:white;
+}
+#resume a:visited {
+    color: white;
+}
+#resume a:hover {
+        grid-area: links;
+        color: rgb(37,136,166);
+    }
+#resume a:active {
+        color: white;
+      }
+/*GRID FOR BLOG PAGE */
 .nested {
-    /* grid: inherit; */
-    /* grid-template-areas: 1fr 1fr 1fr 1fr 1fr;
-    display: grid;*/
     margin: 20px;
     grid-template-columns: 1fr ;
     grid-gap: 10px;
     grid-column: 1/4;
 }
-.nested img {
+.nested img .blogpic{
     margin-top: 0px;
-    width: 200px;
-    height: 180px;
+    width: 100px;
+    height: 80px;
     float: right;
 }
 .nested article{
@@ -403,6 +424,16 @@ article p{
     align-items: center;
     margin-top: 20px;
   }
+
+  /*CONTENT FOR PORTFOLIO PAGE*/
+.nested article .icons {
+    float:left;
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 5px;
+}
     /* grid for blog page */
 .nested {
     /* grid: inherit; */
@@ -414,7 +445,7 @@ article p{
     grid-column: 1/4;
     
 }
-.nested img {
+.nested img .blogpic {
     margin-top: 0px;
     width: 200px;
     height: 180px;
@@ -546,7 +577,15 @@ section img{
     min-height: 300px;
     font-size: 16px;
 }
-
+/*PORTFOLIO PAGE*/
+.nested article .icons {
+    float:left;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+    
+}
 /*BLOG PAGE - CONTENT SECTION*/
 /*GRID SIZING*/
 .nested {
@@ -555,7 +594,7 @@ section img{
     grid-gap: 10px;
     grid-column: 1/4; 
 }
-.nested img {
+.nested img .blogpic {
     margin-top: 0px;
     width: 200px;
     height: 180px;
